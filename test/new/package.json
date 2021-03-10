@@ -1,0 +1,12 @@
+{
+          "name": "nib-API",
+          "version": "1.0.0",
+          "description": "This is my nib API",
+          "main": "app.js",
+          "repository": "",
+          "author": "Chuks",
+          "license": "ISC",
+          "dependencies": {
+                    "express": "^4.17.1"
+          }
+}
