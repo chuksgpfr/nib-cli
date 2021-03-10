@@ -5,12 +5,12 @@ const readline = require("readline");
 const process = require('process');
 const fs = require("fs");
 const args = require('minimist')(process.argv.slice(2))
-const {createPackageFile} = require('./helpers/packageHelper');
-const {yarnInstaller} = require('./helpers/yarnHelper');
-const {nodeInstaller} = require('./helpers/nodeHelper');
+const {createPackageFile} = require('./lib/helpers/packageHelper');
+const {yarnInstaller} = require('./lib/helpers/yarnHelper');
+const {nodeInstaller} = require('./lib/helpers/nodeHelper');
 const {exec} = require("child_process");
-const {createIndex, createHomeRoute} = require("./filecreators/createExpressFiles");
-const { createFastifyIndex, createFastifyHomeRoute } = require("./filecreators/createFastifyFiles");
+const {createIndex, createHomeRoute} = require("./lib/filecreators/createExpressFiles");
+const { createFastifyIndex, createFastifyHomeRoute } = require("./lib/filecreators/createFastifyFiles");
 
 
 

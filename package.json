@@ -1,6 +1,6 @@
 {
   "name": "nib-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a CLI package that simplifies your life as a Node JS developer",
   "main": "index.js",
   "repository": {
