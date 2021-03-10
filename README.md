@@ -1,5 +1,7 @@
 # Node Init BootStrapper CLI -- nib-cli
-This is a CLI package that simplifies your life as a Node JS developer
+This is a CLI package that simplifies your life as a Node JS developer.
+
+This pacakge creates the initial files and folders for your node js API project using either express or fastify as stated by you using `--server fastify`
 
 ## To use this package you must have node js installed
 
