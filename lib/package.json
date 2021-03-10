@@ -1,17 +1,30 @@
 {
   "name": "nib-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a CLI package that simplifies your life as a Node JS developer",
   "main": "index.js",
-  "repository": "https://github.com/chuksgpfr/nib",
-  "author": "ChuksGPFR",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuksgpfr/nib.git"
+  },
+  "keywords": [
+    "bootstrapper",
+    "cli",
+    "node",
+    "nib",
+    "nib-cli",
+    "api"
+  ],
+  "author": "Chukwudi Ubah <chuksgpfr@gmail.com>",
+  "contributors": [],
   "license": "MIT",
-  "scripts": {
-    "start": "node index.js"
+  "bugs": {
+    "url": "https://github.com/chuksgpfr/nib/issues"
+  },
+  "bin": {
+    "nib-cli": "./index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "fastify": "^3.13.0",
     "minimist": "^1.2.5"
   }
 }
